@@ -194,6 +194,106 @@ export const PROJECTS = [
   },
 ];
 
+export const EDUCATIONS = [
+    {
+      university: "Central University of Haryana (Mahendragarh)",
+      image: "/cuhlogoo.png",
+      degree: "Master of Computer Applications (MCA)",
+      Session: "July-2018 -- June-2021",
+      description:
+        `• Compeleted Masters with learning latest technology relevents with computer science.`,
+      technologies: [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "C",
+        "C++",
+        "Java",
+        "Networking",
+        "Data Structure",
+        "Software Development Life Cycle",
+        "Android",
+        "React.js",
+        "Oracle",
+        "SQL",
+      ],
+    },
+    {
+        university: "Gaya College, Gaya (Magadh University, Gaya)",
+        image: "/gayaclglogo.png",
+        degree: "Bachelor of Computer Applications (MCA)",
+        Session: "May-2014 -- June-2017",
+        description:
+          `• Compeleted Bachelor with learning latest technology relevents with computer science.`,
+        technologies: [
+          "HTML",
+          "CSS",
+          "JavaScript",
+          "C",
+          "C++",
+          "Java",
+          "Networking",
+          "Data Structure",
+          "Software Development Life Cycle",
+          "Android",
+          "React.js",
+          "Oracle",
+          "SQL",
+        ],
+      },
+    
+  ];
+
+  export const CERTIFICATIONS = [
+    {
+      university: "Central University of Haryana (Mahendragarh)",
+      image: "/cuhlogoo.png",
+      degree: "Master of Computer Applications (MCA)",
+      Session: "July-2018 -- June-2021",
+      description:
+        `• Compeleted Masters with learning latest technology relevents with computer science.`,
+      technologies: [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "C",
+        "C++",
+        "Java",
+        "Networking",
+        "Data Structure",
+        "Software Development Life Cycle",
+        "Android",
+        "React.js",
+        "Oracle",
+        "SQL",
+      ],
+    },
+    {
+        university: "Gaya College, Gaya (Magadh University, Gaya)",
+        image: "/gayaclglogo.png",
+        degree: "Bachelor of Computer Applications (MCA)",
+        Session: "May-2014 -- June-2017",
+        description:
+          `• Compeleted Bachelor with learning latest technology relevents with computer science.`,
+        technologies: [
+          "HTML",
+          "CSS",
+          "JavaScript",
+          "C",
+          "C++",
+          "Java",
+          "Networking",
+          "Data Structure",
+          "Software Development Life Cycle",
+          "Android",
+          "React.js",
+          "Oracle",
+          "SQL",
+        ],
+      },
+    
+  ];
+
 export const CONTACTS = {
   Address: "3, Sai Baba Temple Rd, Green Garden Layout, Silver Springs Layout, Munnekollal, Bengaluru, Karnataka 560066",
   Phone: "+91 80 4200 4200",

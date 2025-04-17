@@ -1,5 +1,5 @@
+/* eslint-disable @typescript-eslint/no-unused-vars */
 "use client";
-
 import { useState, useEffect } from "react";
 
 const ContactForm = () => {
@@ -8,6 +8,7 @@ const ContactForm = () => {
     email: "",
     message: "",
   });
+  
   const [status, setStatus] = useState("");
   const [now, setNow] = useState("");
 
@@ -39,6 +40,25 @@ const ContactForm = () => {
       setStatus("Failed to send message.");
     }
   };
+
+// const handleSubmit = async (e: React.FormEvent) => {
+//     e.preventDefault();
+  
+//     const res = await fetch('/api/contact', {
+//       method: 'POST',
+//       headers: {
+//         'Content-Type': 'application/json',
+//       },
+//       body: JSON.stringify({
+//         name: 'Test User',
+//         email: 'test@example.com',
+//         message: 'This is a test message.',
+//       }),
+//     });
+  
+//     const result = await res.json();
+//     console.log(result);
+//   };
 
   return (
     <form
