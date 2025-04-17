@@ -1,7 +1,7 @@
 /* eslint-disable @next/next/no-img-element */
 import React from "react";
 import { EDUCATIONS } from "../contants/Texts";
-import Projects from "../projects/Projects";
+
 
 function Educations() {
   return (
