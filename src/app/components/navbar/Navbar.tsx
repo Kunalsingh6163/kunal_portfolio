@@ -30,7 +30,7 @@ function Navbar() {
           </button>
         </Link>
       </div>
-      <div className="m-8 flex items-center justify-center gap-4 text-2xl">
+      <div className="m-8 flex lg:flex-wrap items-center justify-center gap-4 text-2xl">
         <Link href="https://www.linkedin.com/in/kunalsingh2021/">
           <FaLinkedin />
         </Link>

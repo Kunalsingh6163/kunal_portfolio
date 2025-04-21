@@ -3,7 +3,7 @@ import { EXPERIENCES } from "../contants/Texts";
 
 function Experience() {
   return (
-    <div className="border-b border-neutral-900 pb-4">
+    <div className="border-b border-neutral-900 pb-4" style={{marginRight:"100px"}}>
       <h1 className="my-20 text-center text-4xl">Experience</h1>
       <div>
         {EXPERIENCES.map((experience, index) => (
@@ -24,7 +24,7 @@ function Experience() {
               {experience.technologies.map((tech, index) => (
                 <span
                   key={index}
-                  className="mr-0 mt-4 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-purple-400"
+                  className="mr-0 mt-4 gap-0.5 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-purple-400"
                 >
                   {tech}
                 </span>

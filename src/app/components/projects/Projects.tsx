@@ -4,7 +4,10 @@ import { PROJECTS } from "../contants/Texts";
 
 function Projects() {
   return (
-    <div className=" border-b border-neutral-900 pb-4">
+    <div
+      className=" border-b border-neutral-900 pb-4"
+      style={{ marginRight: "85px" }}
+    >
       <h1 className="my-20 text-center text-4xl">Projects</h1>
       <div>
         {PROJECTS.map((project, index) => (
@@ -24,7 +27,7 @@ function Projects() {
               {project.technologies.map((tech, index) => (
                 <span
                   key={index}
-                  className="bg-neutral-900 mr-2 rounded px-2 py-1 text-sm font-medium text-purple-900"
+                  className="bg-neutral-900 mr-2 gap-0.5 rounded px-2 py-1 text-sm font-medium text-purple-400" style={{marginRight:'-5px'}}
                 >
                   {tech}
                 </span>

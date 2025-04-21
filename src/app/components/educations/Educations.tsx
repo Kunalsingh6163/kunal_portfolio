@@ -2,7 +2,6 @@
 import React from "react";
 import { EDUCATIONS } from "../contants/Texts";
 
-
 function Educations() {
   return (
     <div className=" border-b border-neutral-900 pb-4">
@@ -31,7 +30,7 @@ function Educations() {
               {project.technologies.map((tech, index) => (
                 <span
                   key={index}
-                  className="bg-neutral-900 mr-2 rounded px-2 py-1 text-sm font-medium text-purple-900"
+                  className="bg-neutral-900 mr-2 rounded px-2 py-1 text-sm font-medium text-purple-400"
                 >
                   {tech}
                 </span>
