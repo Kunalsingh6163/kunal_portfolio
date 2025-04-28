@@ -21,7 +21,7 @@ function Navbar() {
         </p>
       </div>
       <div className="m-8 flex items-center justify-center gap-4 text-2xl">
-        <Link href="https://drive.google.com/file/d/1Gu1RkifuRexqMjo1W5aT54vW9HJrZGO5/view?usp=sharing">
+        <Link href="https://drive.google.com/file/d/1bVsO79bPCGT20l-MazoH4bsQIbFE1KOS/view?usp=sharing">
           <button
             type="button"
             className="rounded bg-blue-800 text-xl h-12 w-30 text-white"
